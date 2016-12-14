@@ -1,0 +1,66 @@
+[submodule "SWBBase"]
+	path = SWBBase
+	url = https://github.com/SemanticWebBuilder/SWBBase.git
+[submodule "SWBPlatform"]
+	path = SWBPlatform
+	url = https://github.com/SemanticWebBuilder/SWBPlatform.git
+[submodule "SWBModel"]
+	path = SWBModel
+	url = https://github.com/SemanticWebBuilder/SWBModel.git
+[submodule "SWBTripleStore"]
+	path = SWBTripleStore
+	url = https://github.com/SemanticWebBuilder/SWBTripleStore.git
+[submodule "SWBPortal"]
+	path = SWBPortal
+	url = https://github.com/SemanticWebBuilder/SWBPortal.git
+[submodule "SWBSearch"]
+	path = SWBSearch
+	url = https://github.com/SemanticWebBuilder/SWBSearch.git
+[submodule "SWBNLP"]
+	path = SWBNLP
+	url = https://github.com/SemanticWebBuilder/SWBNLP.git
+[submodule "SWBAdmin"]
+	path = SWBAdmin
+	url = https://github.com/SemanticWebBuilder/SWBAdmin.git
+[submodule "SWBTripleStoreBase"]
+	path = SWBTripleStoreBase
+	url = https://github.com/SemanticWebBuilder/SWBTripleStoreBase.git
+[submodule "SWBTripleStoreLevelDB"]
+	path = SWBTripleStoreLevelDB
+	url = https://github.com/SemanticWebBuilder/SWBTripleStoreLevelDB.git
+[submodule "SWBTripleStoreMongoDB"]
+	path = SWBTripleStoreMongoDB
+	url = https://github.com/SemanticWebBuilder/SWBTripleStoreMongoDB.git
+[submodule "SWBOfficeComunicationInterfaces"]
+	path = SWBOfficeComunicationInterfaces
+	url = https://github.com/SemanticWebBuilder/SWBOfficeComunicationInterfaces.git
+[submodule "SWBRepositoryManager"]
+	path = SWBRepositoryManager
+	url = https://github.com/SemanticWebBuilder/SWBRepositoryManager.git
+[submodule "SWBJCR170"]
+	path = SWBJCR170
+	url = https://github.com/SemanticWebBuilder/SWBJCR170.git
+[submodule "SWBSemanticFileRepository"]
+	path = SWBSemanticFileRepository
+	url = https://github.com/SemanticWebBuilder/SWBSemanticFileRepository.git
+[submodule "SWBXMLRPCCommon"]
+	path = SWBXMLRPCCommon
+	url = https://github.com/SemanticWebBuilder/SWBXMLRPCCommon.git
+[submodule "SWBXMRPCServer"]
+	path = SWBXMRPCServer
+	url = https://github.com/SemanticWebBuilder/SWBXMRPCServer.git
+[submodule "SWBOffice"]
+	path = SWBOffice
+	url = https://github.com/SemanticWebBuilder/SWBOffice.git
+[submodule "SWBTOWB3Compatibility"]
+	path = SWBTOWB3Compatibility
+	url = https://github.com/SemanticWebBuilder/SWBTOWB3Compatibility.git
+[submodule "SWB3Resources"]
+	path = SWB3Resources
+	url = https://github.com/SemanticWebBuilder/SWB3Resources.git
+[submodule "SWB"]
+	path = SWB
+	url = https://github.com/SemanticWebBuilder/SWB.git
+[submodule "SWBTripleStoreMongo"]
+	path = SWBTripleStoreMongo
+	url = https://github.com/SemanticWebBuilder/SWBTripleStoreMongo.git
