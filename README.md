@@ -7,4 +7,7 @@ To clone this repo use:
 
 To  build use:
 
+```
+cd SWBBundle
 mvn package
+```
