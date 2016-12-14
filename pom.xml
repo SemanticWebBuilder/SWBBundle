@@ -5,7 +5,7 @@
     <artifactId>SWBBundle</artifactId>
     <version>5.0</version>
     <packaging>pom</packaging>
-    <name>SWB Generator</name>
+    <name>SWB Bundle</name>
     <modules>
         <module>SWBBase</module>
         <module>SWBPlatform</module>
