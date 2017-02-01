@@ -23,7 +23,7 @@ cd SWBBundle
 mvn package
 ```
 
-This profile uses local projects checked out to build the projects. If you want to build SWB using a branch tag on each submodule (tag must exist in each repository) just type:
+This profile uses local projects checked out to build the application. If you want to build SWB using a branch tag on each submodule (tag must exist in each repository) just type:
 
 ```sh
 cd SWBBundle
