@@ -23,13 +23,14 @@ cd SWBBundle
 mvn package
 ```
 
-This profile uses [jitpack](https://jitpack.io/) to resolve dependencies based on master branch for each submodule.
+This profile uses local checked out projects to package SWB.
 
-If you want to build SWB using local checked out code just type:
+
+If you want to build SWB using [jitpack](https://jitpack.io/) to resolve dependencies based on master branch for each submodule just type:
 
 ```sh
 cd SWBBundle
-mvn package -Dlocal=true
+mvn package -Djitpack=true
 ```
 
 If you want to build SWB using a branch tag on each submodule (tag must exist in each repository) just type:
