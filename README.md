@@ -7,6 +7,14 @@ To clone this repo use:
 git clone --recursive https://github.com/SemanticWebBuilder/SWBBundle.git
 ```
 
+We'll try to have submodules always to head, but it might get behind
+
+To update to head commit:
+
+```sh
+git submodule update --remote
+```
+
 All submodules will be checked out in **detached HEAD** state. To attach all submodules to a branch just type:
 
 ```sh
@@ -43,11 +51,3 @@ mvn package -Dbranchtag=<tagname>
 Where _&lt;tagname>_ stands for the name of the branch to use. This profile uses [jitpack](https://jitpack.io/) to resolve dependencies.
 
 Whatever option you choose, the application's WAR will be generated in folder **SWB/target**.
-
-We'll try to have submodules always to head, but it might get behind
-
-To update to head commit:
-
-```sh
-git submodule update --remote
-```
