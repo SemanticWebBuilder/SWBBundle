@@ -86,3 +86,7 @@
 	path = SWBTripleStoreMongo
 	url = https://github.com/SemanticWebBuilder/SWBTripleStoreMongo.git
 	branch = master
+[submodule "elfinder-swbservlet"]
+	path = elfinder-swbservlet
+	url = https://github.com/SemanticWebBuilder/elfinder-swbservlet.git
+	branch = master
