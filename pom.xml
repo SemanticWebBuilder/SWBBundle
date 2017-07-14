@@ -23,7 +23,7 @@
         <module>SWBJCR170</module>
         <module>SWBSemanticFileRepository</module>
         <module>SWBXMLRPCCommon</module>
-        <module>SWBXMRPCServer</module>
+        <module>SWBXMLRPCServer</module>
         <module>SWBOffice</module>
         <module>SWBTOWB3Compatibility</module>
         <module>SWB3Resources</module>
