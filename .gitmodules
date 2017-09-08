@@ -86,3 +86,7 @@
 	path = SWBXMLRPCServer
 	url = https://github.com/SemanticWebBuilder/SWBXMLRPCServer.git
 	branch = master
+[submodule "elfinder-swbservlet"]
+	path = elfinder-swbservlet
+	url = https://github.com/SemanticWebBuilder/elfinder-swbservlet.git
+	branch = dev
