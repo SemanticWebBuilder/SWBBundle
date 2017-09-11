@@ -6,30 +6,73 @@
     <version>5.0</version>
     <packaging>pom</packaging>
     <name>SWB Bundle</name>
-    <modules>
-        <module>SWBBase</module>
-        <module>SWBPlatform</module>
-        <module>SWBModel</module>
-        <module>SWBTripleStore</module>
-        <module>SWBPortal</module>
-        <module>SWBSearch</module>
-        <module>SWBNLP</module>
-        <module>SWBAdmin</module>
-        <module>SWBTripleStoreBase</module>
-        <module>SWBTripleStoreLevelDB</module>
-        <module>SWBTripleStoreMongoDB</module>
-        <module>SWBOfficeComunicationInterfaces</module>
-        <module>SWBRepositoryManager</module>
-        <module>SWBJCR170</module>
-        <module>SWBSemanticFileRepository</module>
-        <module>SWBXMLRPCCommon</module>
-        <module>SWBXMLRPCServer</module>
-        <module>SWBOffice</module>
-        <module>SWBTOWB3Compatibility</module>
-        <module>SWB3Resources</module>
-        <module>SWB</module>
-        <module>SWBTripleStoreMongo</module>
-    </modules>
+
+    <profiles>
+      <profile>
+        <id>default</id>
+        <activation>
+          <activeByDefault>true</activeByDefault>
+        </activation>
+        <modules>
+          <module>SWBBase</module>
+          <module>SWBPlatform</module>
+          <module>SWBModel</module>
+          <module>SWBTripleStore</module>
+          <module>SWBPortal</module>
+          <module>SWBSearch</module>
+          <module>SWBNLP</module>
+          <module>SWBAdmin</module>
+          <module>SWBTripleStoreBase</module>
+          <module>SWBTripleStoreLevelDB</module>
+          <module>SWBTripleStoreMongoDB</module>
+          <module>SWBOfficeComunicationInterfaces</module>
+          <module>SWBRepositoryManager</module>
+          <module>SWBJCR170</module>
+          <module>SWBSemanticFileRepository</module>
+          <module>SWBXMLRPCCommon</module>
+          <module>SWBXMLRPCServer</module>
+          <module>SWBOffice</module>
+          <module>SWB</module>
+          <module>SWBTripleStoreMongo</module>
+        </modules>
+      </profile>
+
+      <!-- WB3 Compatibility profile -->
+      <profile>
+        <id>WB3Compatibility</id>
+        <activation>
+          <property>
+            <name>WB3Compatibility</name>
+            <value>true</value>
+          </property>
+        </activation>
+        <modules>
+            <module>SWBBase</module>
+            <module>SWBPlatform</module>
+            <module>SWBModel</module>
+            <module>SWBTripleStore</module>
+            <module>SWBPortal</module>
+            <module>SWBSearch</module>
+            <module>SWBNLP</module>
+            <module>SWBAdmin</module>
+            <module>SWBTripleStoreBase</module>
+            <module>SWBTripleStoreLevelDB</module>
+            <module>SWBTripleStoreMongoDB</module>
+            <module>SWBOfficeComunicationInterfaces</module>
+            <module>SWBRepositoryManager</module>
+            <module>SWBJCR170</module>
+            <module>SWBSemanticFileRepository</module>
+            <module>SWBXMLRPCCommon</module>
+            <module>SWBXMLRPCServer</module>
+            <module>SWBOffice</module>
+            <module>SWBTOWB3Compatibility</module>
+            <module>SWB3Resources</module>
+            <module>SWB</module>
+            <module>SWBTripleStoreMongo</module>
+        </modules>
+      </profile>
+    </profiles>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
