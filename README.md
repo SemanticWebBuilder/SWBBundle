@@ -52,9 +52,9 @@ Where _&lt;tagname>_ stands for the name of the branch to use. This profile uses
 
 Whatever option you choose, the application's WAR will be generated in folder **SWB/target**.
 
-To download and build the last version:
+## Download and Build the Last Version
 
-Last Version:
+To download and build the last version:
 
 ```sh
 git clone --recursive https://github.com/SemanticWebBuilder/SWBBundle.git
