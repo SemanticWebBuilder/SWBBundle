@@ -62,5 +62,6 @@ cd SWBBundle
 git submodule update --remote
 git checkout 5.0
 git submodule foreach 'git checkout 5.0'
+mvn package
 ```
 
