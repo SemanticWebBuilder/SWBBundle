@@ -19,6 +19,10 @@ All submodules will be checked out in **detached HEAD** state. To attach all sub
 
 ```sh
 git submodule foreach 'git checkout <branchname>'
+
+Last Version:
+
+git submodule foreach 'git checkout 5.0'
 ```
 
 Where _&lt;branchname>_ stands for the name of the branch to checkout.
