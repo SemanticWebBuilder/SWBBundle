@@ -51,3 +51,17 @@ mvn package -Dbranchtag=<tagname>
 Where _&lt;tagname>_ stands for the name of the branch to use. This profile uses [jitpack](https://jitpack.io/) to resolve dependencies.
 
 Whatever option you choose, the application's WAR will be generated in folder **SWB/target**.
+
+## Download and Build the Last Version
+
+To download and build the last version:
+
+```sh
+git clone --recursive https://github.com/SemanticWebBuilder/SWBBundle.git
+cd SWBBundle
+git submodule update --remote
+git checkout 5.0
+git submodule foreach 'git checkout 5.0'
+mvn package
+```
+
