@@ -3,3 +3,5 @@
 .project
 .settings/
 #elfinder-swbservlet/
+
+**/**target/
